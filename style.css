@@ -1,0 +1,148 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 100%;
+  height: 100vh;
+  background: rgb(236, 230, 81);
+}
+
+.main {
+  position: relative;
+}
+
+.catchphrase {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  color: rgb(255, 95, 49);
+  border: 0.3em solid;
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  background: #fff;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+
+header.catchphrase {
+  top: 0;
+}
+
+footer.catchphrase {
+  bottom: 0;
+}
+
+.content__wrapper {
+  position: relative;
+}
+
+.vertical-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 2;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.right-menu {
+  top: 0;
+  right: 0;
+}
+
+.nav {
+  top: 0;
+  left: 0;
+}
+
+.nav-group {
+  width: 2em;
+  color: #fff;
+  background: rgb(255, 95, 49);
+  border: 0.3em solid rgb(255, 95, 49);
+  height: 100%;
+}
+
+.nav-group-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 2em;
+  color: rgb(255, 95, 49);
+  background: #fff;
+  border: 0.3em solid;
+  height: 100%;
+}
+
+.nav-group-3 {
+  display: flex;
+  align-items: center;
+  width: 2em;
+  color: #fff;
+  background: rgb(26, 162, 72);
+  border: 0.3em solid rgb(255, 95, 49);
+  height: 100%;
+}
+
+.nav-item {
+  padding: 0.5em;
+  width: 1em;
+  text-align: center;
+  font-size: 1em;
+  font-style: italic;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  letter-spacing: 0.1em;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-newsletter {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+}
+
+.content {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  font-size: 6em;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.contents_l {
+  background: url(https://images.unsplash.com/photo-1606471191009-63994c53433b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8aW5kaWElMjBjdXJyeXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+}
+
+.contents_r {
+  background: url(https://images.unsplash.com/photo-1606222651797-dc3116801261?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8aW5kaWElMjBjdXJyeXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+}
+
+.bg-cover {
+  width: 50%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
